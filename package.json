@@ -1,0 +1,30 @@
+{
+  "name": "salabot-demo",
+  "version": "1.0.0-beta.0",
+  "description": "Source code for the example salabot instance running in Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morko/salabot-demo.git"
+  },
+  "keywords": [
+    "salabot",
+    "discord"
+  ],
+  "author": "Oskari Pöntinen <mail.morko@gmail.com> (https://github.com/morko)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/morko/salabot-demo/issues"
+  },
+  "homepage": "https://github.com/morko/salabot-demo#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "salabot": "git+https://github.com/morko/salabot.git",
+    "salabot-cleverbot": "git+https://github.com/morko/salabot-cleverbot.git",
+    "sqlite3": "^4.0.6"
+  }
+}
