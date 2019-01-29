@@ -23,8 +23,8 @@
   "homepage": "https://github.com/morko/salabot-demo#readme",
   "dependencies": {
     "dotenv": "^6.2.0",
-    "salabot": "git+https://github.com/morko/salabot.git",
-    "salabot-cleverbot": "git+https://github.com/morko/salabot-cleverbot.git",
+    "salabot": "morko/salabot",
+    "salabot-cleverbot": "morko/salabot-cleverbot",
     "sqlite3": "^4.0.6"
   }
 }
